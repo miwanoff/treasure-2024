@@ -4,6 +4,9 @@ const treasure = {
 };
 
 const map = document.getElementById("map");
+console.log(map.width);
+console.log(map.height);
+const wrap = document.getElementById("wrap");
 
 map.onmousemove = function (event) {
   const coords = document.getElementById("coords");
